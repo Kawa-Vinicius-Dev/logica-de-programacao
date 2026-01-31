@@ -44,5 +44,7 @@ public class Exercicio2 {
 
         System.out.println("Area:" + a);
 
+        input.close();
+
     }
 }
