@@ -12,7 +12,7 @@ public class Exercicio3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Calculo da área e perimetro de um quadrado: ");
+        System.out.println("Calculo da área e perimetro de um quadrado. ");
         System.out.println("Valor do lado: ");
 
         double lado = ladovalido(input);
@@ -25,7 +25,7 @@ public class Exercicio3 {
         input.close();
     }
 
-        private static double ladovalido(Scanner input) {
+    private static double ladovalido(Scanner input) {
         double lado;
         while (true) {
             if (!input.hasNextDouble()) {
@@ -40,7 +40,6 @@ public class Exercicio3 {
             }
             return lado;
         }
-
 
 
     }

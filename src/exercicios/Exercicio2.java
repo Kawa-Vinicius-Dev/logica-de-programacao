@@ -23,7 +23,7 @@ public class Exercicio2 {
                 continue;
             }
             h = input.nextDouble();
-            if (h<0){
+            if (h < 0) {
                 System.out.println("A Altura deve ser positiva!");
                 continue;
             }
@@ -33,7 +33,7 @@ public class Exercicio2 {
                 continue;
             }
             b = input.nextDouble();
-            if (b<0){
+            if (b < 0) {
                 System.out.println("A Base deve ser positiva!");
                 continue;
             }

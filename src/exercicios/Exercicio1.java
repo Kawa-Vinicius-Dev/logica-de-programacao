@@ -15,7 +15,7 @@ public class Exercicio1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int A,B;
+        int A, B;
 
         while (true) {
             System.out.println("Digite o valor inicial (A) e o final (B): ");
@@ -29,17 +29,17 @@ public class Exercicio1 {
             }
             break;
         }
-            if (A % 2 == 0) {
-                A++;
-            }
-            System.out.println("Números ímpares no intervalo:");
-            for (int i = A; i <= B; i += 2) {
-                System.out.println(i);
-            }
-
-            input.close();
+        if (A % 2 == 0) {
+            A++;
         }
+        System.out.println("Números ímpares no intervalo:");
+        for (int i = A; i <= B; i += 2) {
+            System.out.println(i);
+        }
+
+        input.close();
     }
+}
 
 
 
