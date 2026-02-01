@@ -1,5 +1,10 @@
 package exercicios;
 
+/*
+Ler dois números inteiros e exibir
+quociente e o resto da divisão inteira entre eles.
+ */
+
 import java.util.Scanner;
 
 public class Exercicio7 {
