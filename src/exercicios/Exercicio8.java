@@ -8,7 +8,7 @@ informar na tela a idade em anos, meses e dias.
 import java.util.Scanner;
 import java.time.LocalDate;
 
-public class Exericio8 {
+public class Exercicio8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
