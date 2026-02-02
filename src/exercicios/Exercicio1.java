@@ -5,7 +5,7 @@ package exercicios;
  * Ler dois números inteiros A e B.
  * Validar que A não seja maior que B.
  * Caso A > B, pedir os valores novamente.
- * Após validação, imprimir todos os números ímpares
+ * Após validação, imprimir todos os números ímpares.
  * no intervalo de A até B (inclusive).
  */
 
