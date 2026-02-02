@@ -23,7 +23,7 @@ public class Exercicio10 {
 
         double v = calculoVolume(r,h);
 
-        System.out.printf("Volume = %.2f" ,v);
+        System.out.printf("Volume da lata de óleo = %.2f" , v);
 
         input.close();
 
