@@ -1,8 +1,8 @@
 package exercicios;
 
 /*
-Dado o tamanho do lado de um quadrado,
-calcular a área e o perímetro do mesmo
+* Dado o tamanho do lado de um quadrado,
+* calcular a área e o perímetro do mesmo
 */
 
 import java.util.Scanner;
