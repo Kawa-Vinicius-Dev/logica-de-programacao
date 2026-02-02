@@ -1,9 +1,9 @@
 package exercicios;
 
 /*
-Solicitar a idade de uma pessoa em dias
-informar na tela a idade em anos, meses e dias.
- */
+* Solicitar a idade de uma pessoa em dias
+* informar na tela a idade em anos, meses e dias.
+*/
 
 import java.util.Scanner;
 import java.time.LocalDate;
