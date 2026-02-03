@@ -1,8 +1,8 @@
 package exercicios;
 
-    /*
-    Ler um número inteiro e exibir o seu sucessor.
-     */
+/*
+* Ler um número inteiro e exibir o seu sucessor.
+*/
 
 import java.util.Scanner;
 
