@@ -29,7 +29,7 @@ public class Exercicio11 {
             int numero = input.nextInt();
 
             if (numero == 0 || numero >= 32) {
-                System.out.println("Digite um número de 0 a 31!");
+                System.out.println("Digite um número de 0 a 31! ");
                 continue;
             }
             return numero;
