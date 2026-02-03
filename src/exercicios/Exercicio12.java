@@ -46,7 +46,7 @@ public class Exercicio12 {
         return nota;
     }
 
-    private static double calculoNotaSemestral(double nota1, double nota2) {
+    private static double calculoNotaSemestral(double nota1, double nota2){
         double notaSemestral = (nota1 + nota2) / 2;
         System.out.println("Nota Semestral " + notaSemestral);
         return notaSemestral;
