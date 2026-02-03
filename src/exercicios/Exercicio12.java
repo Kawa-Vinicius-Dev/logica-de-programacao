@@ -28,7 +28,7 @@ public class Exercicio12 {
             System.out.print("Digite a nota " + descricao + ":");
 
             if (!input.hasNextDouble()) {
-                System.out.println("Digite um valor valido!");
+                System.out.println("Digite um valor valido! ");
                 input.next();
                 valido = false;
                 continue;
