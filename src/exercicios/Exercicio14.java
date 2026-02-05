@@ -20,6 +20,7 @@ public class Exercicio14 {
         input.close();
     }
     private static double lerResistenciaValida(Scanner input, String descricao){
+
         boolean valido;
         double resist = 0;
 
