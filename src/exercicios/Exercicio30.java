@@ -30,7 +30,6 @@ public class Exercicio30 {
             }
 
             numero = sc.nextDouble();
-            verificar = true;
 
             if (numero <= 0) {
                 System.out.println("Digite um número maior que zero!");
