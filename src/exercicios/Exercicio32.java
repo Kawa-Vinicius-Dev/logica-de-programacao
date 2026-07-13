@@ -29,7 +29,25 @@ public class Exercicio32 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double num =  Validarnum(input, "passes");
+        double passesTotal =  Validarnum(input, "passes tentados");
+        double passesConcluidos = Validarnum(input, "passes concluidos");
+        double jardas = Validarnum(input, "jardas");
+        double touchdown =  Validarnum(input, "passes touchdown");
+        double interceptados =  Validarnum(input, "passes interceptados");
+        double porcentagem = calcularPorcentagem( passesTotal, passesConcluidos);
+
+        double caljarads = calcularJardas(passesTotal, passesConcluidos);
+        double caltouchdows =  calcularJardas(passesTotal, passesConcluidos);
+        double calinter = calcularInterceptados(passesTotal, passesConcluidos);
+        double calporcentagem = calcularPorcentagem(interceptados, porcentagem);
+        double total = caljarads + caltouchdows + calinter + calporcentagem;
+
+        System.out.println("1 - jardas: " + caljarads +
+                "\n2 - touchdown: " + caltouchdows +
+                "\n3 - interceptados: " + calinter +
+                "\n4 - porcentagem: " + calporcentagem +
+                "\nTotal: " + total);
+
     }
     private static double Validarnum (Scanner input, String descricao){
         boolean valido;
@@ -54,4 +72,40 @@ public class Exercicio32 {
         }while (!valido);
         return num;
    }
+   private static double calcularPorcentagem (double passesTotal,  double passesConcluidos){
+        double num = (((passesConcluidos * passesTotal) / 100) - 0.3) /0.2; //calculo é feito 45*100/100
+       if (num < 0){
+           num = 0;
+       }else if (num >2.375 ){
+           num = 2.375;
+       }
+       return num;
+   }
+    private static double calcularJardas (double Jardas,  double passesTotal){
+        double num = ((Jardas / passesTotal) - 3) /4; //calculo é feito 45*100/100
+        if (num < 0){
+            num = 0;
+        }else if (num >2.375 ){
+            num = 2.375;
+        }
+        return num;
+    }
+    private static double calcularTouchdown (double touchdown, double passesTotal){
+        double num = (touchdown / passesTotal) / 0.05; //calculo é feito 45*100/100
+        if (num < 0){
+            num = 0;
+        }else if (num >2.375 ){
+            num = 2.375;
+        }
+        return num;
+    }
+    private static double calcularInterceptados (double interceptados, double passesTotal){
+        double num = ((interceptados / passesTotal) - 0.095) / 0.04 ; //calculo é feito 45*100/100
+        if (num < 0){
+            num = 0;
+        }else if (num >2.375 ){
+            num = 2.375;
+        }
+        return num;
+    }
 }
