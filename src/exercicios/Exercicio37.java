@@ -52,7 +52,7 @@ public class Exercicio37 {
         }
     }
     private static int [] nota(Scanner input){
-        int [] nota = new int [4];
+        int [] nota = new int [5];
 
         for (int i = 0; i < nota.length; i++){
             nota[i] = verificarNum(input);
