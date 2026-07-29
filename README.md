@@ -8,7 +8,7 @@ Praticar resolução de problemas, transformar enunciados em etapas lógicas e m
 
 ## Progresso atual
 
-- Exercícios desenvolvidos: até o Exercício 37
+- Exercícios desenvolvidos: até o Exercício 50
 - Linguagem: Java
 - Ambiente utilizado: IntelliJ IDEA
 - Status: em andamento
